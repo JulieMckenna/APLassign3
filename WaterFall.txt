@@ -1,0 +1,85 @@
+APL Assignment 3 - Process Diagrams
+- Julie McKenna
+
+Method: Waterfall
+
+Requirements:
+	- Database of users
+		○ Hold 100 students
+		○ Hold 10 instructors
+		○ 1 admin
+	- Database of courses
+		○ Each entry will consist of: CRN, course, times, instructor
+	- There are 3 types of user
+		○ Student
+			§ Functions: 
+				□ Register for class
+				□ See available classes 
+				□ See their own schedule
+		○ Instructor
+			§ Functions:
+				□ See their own courses
+				□ See available course
+				□ See the course roster
+		○ Admin
+			§ Functions:
+				□ Can see everything(student/instructor courses and rosters)
+				□ Add/remove courses
+				□ Add/remove users
+				□ Edit users/instructors/courses
+	- Print out schedules
+	- Multiple semesters of data
+		○ Based on data filled into databases
+	- Scheduling preferences
+		○ For students - who gets priority
+		○ How is priority handled?
+
+System and software
+	- Create the users(student, instructor, admin)
+	- Create a course 
+	- Create a databases to hold the users
+	- Create a database to hold the courses
+	- Create user functions
+		○ Student
+		○ Instructor
+		○ Admin
+	- Create a scheduling preference
+		○ Who goes first based off what criteria
+
+Implementation and Unit Testing:
+	- Test user functionalities - behave as each of the user types 
+		○ Check that each student can:
+			§ Register for class
+			§ See available classes 
+			§ See their own schedule
+		○ Check that each instructor can:
+			§ See their own courses
+			§ See available course
+			§ See the course roster
+		○ Check that each admin can:
+			§ Can see everything(student/instructor courses and rosters)
+			§ Add/remove courses
+			§ Add/remove users
+			§ Edit users/instructors/courses
+
+Integration and system testing:
+	- Add data to the course database that has different semesters
+		○ Insure that students can only register for classes in the upcoming semester
+		○ Does not show past or future semesters that are not available for scheduling
+	- Add instructors that are before or past current semester
+		○ Make sure that courses only match with instructors that are presently working at WIT
+		○ Make sure instructors are assigned only classes in their major
+	- Add students with different scheduling preference
+		○ Make sure that those who have a higher preference go first
+	- Register students for classes
+		○ Make sure there are enough spots for a student - deny if class is full
+		○ Make sure they can register within their own major - BSOC shouldn’t be able to register for ARCH classes
+		○ Make sure all student can register for humanities
+		○ If user drops class make sure the spot opens for another  user
+		
+Operation and maintenance:
+	- Adding more users
+	- Adding new features?
+	
+	
+	
