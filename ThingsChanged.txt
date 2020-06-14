@@ -12,6 +12,7 @@ Changes made by Julie:
     Has a lot of good information and I may refernce it when makinga GUI
 
 - Waterfall
+Changes stored in Waterfall.pdf ( did not know how to change the .png)
 1. Added creating a menu to get user input
 2. Switch validating user functions before creating a GUI  
     once program works - Then create GUI to control the program
@@ -19,6 +20,7 @@ Changes made by Julie:
     priority, and adding more users to test functionality with a full capacity in the db
 
 -Incremental Development
+Changes stored in Incremental Development.pdf
 1. In Step 4 after debugging adding in the extra functions
     like registration proprity
 2. Could move basic GUI deisgn to step 3. 
