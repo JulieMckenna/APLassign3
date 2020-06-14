@@ -9,7 +9,7 @@ Requirements:
 		○ Hold 10 instructors
 		○ 1 admin
 	- Database of courses
-		○ Each entry will consist of: CRN, course, times, instructor
+		○ Each entry will consist of: CRN, course, times, instructor, room, credits
 	- There are 3 types of user
 		○ Student
 			§ Functions: 
@@ -19,7 +19,6 @@ Requirements:
 		○ Instructor
 			§ Functions:
 				□ See their own courses
-				□ See available course
 				□ See the course roster
 		○ Admin
 			§ Functions:
@@ -30,7 +29,7 @@ Requirements:
 	- Print out schedules
 	- Multiple semesters of data
 		○ Based on data filled into databases
-	- Scheduling preferences
+	- OPTIONAL - Scheduling preferences
 		○ For students - who gets priority
 		○ How is priority handled?
 
@@ -44,8 +43,7 @@ System and software
 		○ Student
 		○ Instructor
 		○ Admin
-	- Create a scheduling preference
-		○ Who goes first based off what criteria
+	
 
 Implementation and Unit Testing:
 	- Create shared fucntionalities between User, Admin, and Instructor
@@ -57,7 +55,6 @@ Implementation and Unit Testing:
 			§ See their own schedule
 		○ Check that each instructor can:
 			§ See their own courses
-			§ See available course
 			§ See the course roster
 		○ Check that each admin can:
 			§ Can see everything(student/instructor courses and rosters)
@@ -68,7 +65,8 @@ Implementation and Unit Testing:
 Integration and system testing:
 	- Add data to the course database that has different semesters
 		○ Insure that students can only register for classes in the upcoming semester
-		○ Does not show past or future semesters that are not available for scheduling
+		○ Does not show future semesters that are not available for scheduling
+		○ Past semester catalogs can be viewed, but not registered
 	- Add instructors that are before or past current semester
 		○ Make sure that courses only match with instructors that are presently working at WIT
 		○ Make sure instructors are assigned only classes in their major
@@ -83,6 +81,7 @@ Integration and system testing:
 Operation and maintenance:
 	- Adding more users
 	- Adding new features?
-	
-	
+	- Create a scheduling preference
+		○ Who goes first based off what criteria
+	- Add a GUI
 	
