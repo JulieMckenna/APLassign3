@@ -1,0 +1,18 @@
+Things changed 
+
+Method that Julie will use: Incremental Development
+Method that Michael will use: 
+
+Changes made by Julie:
+
+- Integrate and Configure
+1. Added some possible infomration that could be helpful when search that databases with user input
+    could be used when search for courses based on a major
+2. The GUI video that was found is going to be really helpful (just a comment)
+    Has a lot of good information and I may refernce it when makinga GUI
+
+- Waterfall
+
+-Incremental Development
+
+Changes made by Michael:
