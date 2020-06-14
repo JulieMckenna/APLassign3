@@ -1,0 +1,16 @@
+Integrate and Configure
+- Michael
+
+Use previous assignments to populate user database and interface with it
+https://www.w3schools.com/python/python_mysql_getstarted.asp use this to run SQL
+- Look to use user input to search the databases 
+https://stackoverflow.com/questions/29586273/searching-for-user-input-variable-string-in-sqlite-using-python
+-- could be helpful when searching for courses
+
+
+https://www.youtube.com/watch?v=Xt6SqWuMSA8 Can use this series for the GUI elements and some of the user functions
+- This is a really good tutorial to a GUI -
+
+https://github.com/jmgoode/registration_system Can probably grab snippets of code from this for the user functions
+
+
