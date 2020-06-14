@@ -11,7 +11,7 @@ First iteration:
 		○ Create database for users
 	- Testing: 
 		○ Can add/remove/edit data in those databases
-		○ Will not have user input all will be done with sql commands
+		○ Basic program to take user input and send straight to SQL (no input validation) 
 
 2nd Iteration:
 	- Design: bare bones of user input program
@@ -42,20 +42,22 @@ First iteration:
 			□ Adding semesters
 				□ Students can only register for current semesters
 				□ Instructors - only instructors teaching during those semesters can be matched to teach a course
-			□ Adding scheduling preference
 	- Testing:
 		○ Try to register for a class in a past semester
 		○ Match courses to instructors - make sure only active teachers show up
 			□ Not future or past
-		○ Try to register before it is that users preference
-			□ Have multiple users with diff preferences 
-				□ Make sure when it is not their time they cannot register
-				□ When it is their time they can register
 
 4th/Final iteration
 	- Design:
 		○ add more users
+		○ Adding scheduling preference
+		○ Add GUI 
 	- Testing:
 		○ Make sure with more users functionality is still working
+		○ Try to register before it is that users preference
+			□ Have multiple users with diff preferences 
+				□ Make sure when it is not their time they cannot register
+				□ When it is their time they can register
+		○ Ensure GUI elements interaface properly with program
 		
 			
