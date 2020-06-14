@@ -1,6 +1,8 @@
 APL Aissgnment 3 - Process Diagrams
 -Julie McKenna
 
+*This will be the model I will use for the semester*
+
 Method: Incremental Development
 
 First iteration:
