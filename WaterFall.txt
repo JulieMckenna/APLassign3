@@ -35,6 +35,7 @@ Requirements:
 		○ How is priority handled?
 
 System and software
+	- Decide what language to use 
 	- Create the users(student, instructor, admin)
 	- Create a course 
 	- Create a databases to hold the users
@@ -47,6 +48,8 @@ System and software
 		○ Who goes first based off what criteria
 
 Implementation and Unit Testing:
+	- Create shared fucntionalities between User, Admin, and Instructor
+	- Create specific functionalities for each user
 	- Test user functionalities - behave as each of the user types 
 		○ Check that each student can:
 			§ Register for class
