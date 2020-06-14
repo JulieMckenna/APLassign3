@@ -28,3 +28,19 @@ Changes stored in Incremental Development.pdf
 
 
 Changes made by Michael:
+All changes were made in original files
+
+Integrate and Configure:
+	Added additional resources for use with SQL and tkinter
+	Misc comments
+    
+Waterfall:
+	Moved scheduling preference to optional features, along with GUI creation
+	Added specifics to requirements section (values within course objects)
+	Removed “see available courses” from instructor sections (it was very vague)
+	Changed course database testing (past catalogs should still be able to be viewed)
+    
+Incremental:
+	Added a basic user input program to first iteration (want to make sure program interfaces properly before writing a dozen functions)
+	Moved all scheduling preference references to final iteration 
+	Added GUI development to final iteration
