@@ -12,7 +12,6 @@ Changes made by Julie:
     Has a lot of good information and I may refernce it when makinga GUI
 
 - Waterfall
-<<<<<<< HEAD
 1. Added creating a menu to get user input
 2. Switch validating user functions before creating a GUI  
     once program works - Then create GUI to control the program
@@ -25,9 +24,5 @@ Changes made by Julie:
 2. Could move basic GUI deisgn to step 3. 
     Do GUI in step 3 and 4. User terminal line until program has full functionality
 
-=======
-
--Incremental Development
->>>>>>> master
 
 Changes made by Michael:
