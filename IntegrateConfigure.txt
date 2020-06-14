@@ -9,7 +9,7 @@ Method: Integrate & Configure
 		c. https://github.com/abhishek305/Registration-Form-With-database-using-python/blob/master/Registration%20form%20part%202.py
 			i. A gui with database inserting values
 			ii. Already have some aspects of this part, know most is not all on how to do this.
-			iii. Only thing woul dbe searching for things in the database using user input for the queries
+			iii. Only thing would be searching for things in the database using user input for the queries
 				- https://stackoverflow.com/questions/29586273/searching-for-user-input-variable-string-in-sqlite-using-python
 			
 	2. Creating the program
