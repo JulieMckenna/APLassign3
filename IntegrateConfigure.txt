@@ -7,14 +7,15 @@ Method: Integrate & Configure
 		a. Using assign 2 on how to interface with the databases
 		b. Using prior sql knowledge to fill and create data 
 		c. https://github.com/abhishek305/Registration-Form-With-database-using-python/blob/master/Registration%20form%20part%202.py
-			i. A gui with database inserting values
+			i. A gui with database inserting values - lacks input validation
 			ii. Already have some aspects of this part, know most is not all on how to do this.
 			iii. Only thing would be searching for things in the database using user input for the queries
 				- https://stackoverflow.com/questions/29586273/searching-for-user-input-variable-string-in-sqlite-using-python
+			- iv. https://www.w3schools.com/python/python_mysql_getstarted.asp might want to use this if making a more permanant package
 			
 	2. Creating the program
 		a. https://github.com/jmgoode/registration_system
-			i. Has person class - with a student and instructor sub classes
+			i. Has person class - with a student and instructor sub classes - need to add admin class
 			ii. Behaviors 
 				1) List students
 				2) Enroll a student (force enroll - needed)
@@ -30,3 +31,4 @@ Method: Integrate & Configure
 		a. https://www.geeksforgeeks.org/python-simple-registration-form-using-tkinter/
 			i. Makes a simple GUI - with blank fill ins 
 			ii. This shows how they make a simple GUI where the user fills in the fields. Change colors and make the elements
+			- iii. https://wiki.python.org/moin/TkInter additional resources for tkinter
